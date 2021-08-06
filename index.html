@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>venissa</title>
+    <title>Venissa</title>
     <!--------------------------
         tailwind cdn added 
     --------------------------->
@@ -15,31 +15,38 @@
 
 <body>
 
-    <section class="grid grid-cols-12 divide-x divide-green-500 divide-purple-600 divide-opacity-25">
+    <section class="grid grid-cols-12 divide-x divide-gray-600 divide-opacity-25">
+
         <div class="col-span-1 pt-10 pb-10">
+
            <div class="grid grid-rows-3">
-            <div class="flex justify-center row-span-2">
-                <p class=" font-bold text-7xl ">V<small class="text-pink-700 text-xl">i</small></p>
-            </div>
-            <div class="flex flex-col justify-center row-span-1" >
-                <img src="icon/twitter.png " alt="" class="px-10 py-3 ">
-                <img src="icon/volleyball.png" alt="" class="px-10 py-3">
-                <img src="icon/letter-b.png" alt="" class="px-10 py-3">
-                <img src="icon/v.jpg" alt="" class="px-10 py-3">
-                <img src="icon/linkedin-logo.png" alt="" class="px-10 py-3">
-            </div>
-        </div>
+
+                <div class="flex justify-center row-span-2">
+                    <p class=" font-bold text-7xl ">V<small class="text-pink-700 text-xl">i</small></p>
+                </div>
+
+                <div class="flex flex-col justify-center row-span-1" >
+                    <img src="icon/twitter.png " alt="" class="px-10 py-3 ">
+                    <img src="icon/volleyball.png" alt="" class="px-10 py-3">
+                    <img src="icon/letter-b.png" alt="" class="px-10 py-3">
+                    <img src="icon/v.jpg" alt="" class="px-10 py-3">
+                    <img src="icon/linkedin-logo.png" alt="" class="px-10 py-3">
+                </div>
            </div>
+
+        </div>
+
+          
         <div class="col-span-11">
 
             <!-----------------
-         Header section  
-        -------------------->
+             Header section  
+            -------------------->
             <header>
 
-                <nav class="flex justify-between items-center py-6 md:justify-center mx-40 md:space-x-10 p-10">
+                <nav class="flex justify-between items-center  md:justify-center md:space-x-10 p-16">
                     <div class="hidden md:flex space-x-10">
-                        <a href="#" class="text-base font-bold text-gray-500 hover:text-gray-900">
+                        <a href="#" class="text-base underline font-bold text-gray-500 hover:text-gray-900">
                             <p>protfolio</p>
                         </a>
                         <a href="#" class="text-base font-bold text-gray-500 hover:text-gray-900">
@@ -67,32 +74,33 @@
                 </nav>
             </header>
 
-            <!---------------
-         Main section 
-         --------------->
-            <main>
-                <section class="container md:flex items-center justify-center -my-5">
-                    <div>
-                        <h1 class="text-xl ">Hi There,</h1>
-                        <p class="text-gray-700 font-bold text-7xl">I am Ven<span class="text-pink-600">i</span>ssa</p>
-                        <p class="text-gray-700 font-bold text-3xl">I am designer during daytime</p>
-                        <p class="text-gray-700 font-bold text-xl"> & work with batman during nights.</p>
-                        <button class="bg-pink-600 mt-8 text-pink-50 font-normal  py-2 px-8 border">
-                            Ask Me How
-                        </button>
-                    </div>
-                    <div>
-                        <img src="image/index.png" alt="">
-                    </div>
-                </section>
-            </main>
+                <!---------------
+                  Main section 
+                --------------->
+
+                <main>
+                    <section class="container md:flex items-center p-20">
+                        <div class="w-full">
+                            <h1 class="text-xl font-bold">Hi There,</h1>
+                            <p class="text-gray-700 font-bold text-7xl">I am Ven<span class="text-pink-600">i</span>ssa</p>
+                            <p class="text-gray-700 font-bold text-3xl">I am designer during daytime</p>
+                            <p class="text-gray-700 font-bold text-xl"> & work with batman during nights.</p>
+                            <button class="bg-pink-600 mt-8 text-pink-50 font-normal  py-2 px-8 border">
+                                Ask Me How
+                            </button>
+                        </div>
+                        <div class="w-full">
+                            <img src="image/index.png" alt="">
+                        </div>
+                    </section>
+                </main>
 
             <!-----------
-           fotter
-        ----------->
-            <footer class="">
-                <div class=" grid grid-cols-3 divide-x divide-gray-500">
-                    <div class="px-32">
+                fotter
+            ----------->
+            <footer>
+                <div class=" flex divide-x divide-gray-500">
+                    <div class="px-10">
                         <p class="text-gray-700 text-xl font-bold  ">Email</p>
                         <p class=" text-gray-700">venissa@gothem.com</p>
                     </div>
@@ -106,8 +114,11 @@
                     </div>
                 </div>
             </footer>
+
         </div>
+
     </section>
+
 </body>
 
 </html>
