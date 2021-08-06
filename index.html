@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,83 +10,104 @@
         tailwind cdn added 
     --------------------------->
 
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> 
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body>
 
-<section class="grid grid-cols-12 divide-x divide-green-500 divide-purple-600 divide-opacity-25">
-    <div class="col-span-1">
-        <div><p class=" font-bold text-7xl">V<small class="text-pink-700 text-xl">i</small></p></div>
-        <div class="my-96"><img src="icon/twitter.png " alt="" class="w-4 my-8 bg-gray-300">
-            <img src="icon/volleyball.png" alt="" class="w-4 my-8 bg-gray-300 ">
-            <img src="icon/letter-b.png" alt="" class="w-4 my-8 bg-gray-300">
-            <img src="icon/v.jpg" alt="" class="w-4 my-8 bg-gray-300">
-            <img src="icon/linkedin-logo.png" alt="" class="w-4 my-8 bg-gray-300">
-       </div>
-    </div>
+    <section class="grid grid-cols-12 divide-x divide-green-500 divide-purple-600 divide-opacity-25">
+        <div class="col-span-1 pt-10 pb-10">
+           <div class="grid grid-rows-3">
+            <div class="flex justify-center row-span-2">
+                <p class=" font-bold text-7xl ">V<small class="text-pink-700 text-xl">i</small></p>
+            </div>
+            <div class="flex flex-col justify-center row-span-1" >
+                <img src="icon/twitter.png " alt="" class="px-10 py-3 ">
+                <img src="icon/volleyball.png" alt="" class="px-10 py-3">
+                <img src="icon/letter-b.png" alt="" class="px-10 py-3">
+                <img src="icon/v.jpg" alt="" class="px-10 py-3">
+                <img src="icon/linkedin-logo.png" alt="" class="px-10 py-3">
+            </div>
+        </div>
+           </div>
+        <div class="col-span-11">
 
-    <div class="col-span-11">
-
-        <!-----------------
+            <!-----------------
          Header section  
         -------------------->
-        <header>
-            <nav class="flex p-10 mx-40">
-                <div class=" font-boldhidden space-x-10  justify-center">
-                    <a class=" text-gray-700 hover:text-gray-900 lowercase underline font-bold" href="#">protfolio</a>
-                    <a class="text-gray-700 hover:text-gray-900 lowercase font-bold" href="#">about me</a>
-                    <a class="text-gray-700 hover:text-gray-900 lowercase font-bold" href="#">my blog</a>
-                    <a class="text-gray-700 hover:text-gray-900 lowercase font-bold" href="#">reviews</a>
-                    <a class="text-gray-700 hover:text-gray-900 lowercase font-bold" href="#">contact me</a>
-                </div>
-                <div class="md:flex items-center justify-end md:flex-1 lg:w-0">
-                    <img class="w-4 inline text-pink-600" src="icon/phone-call.png" alt="">
-                        <p class="flax text-red-600 font-bold mx-1 ">Schedule a Call</p>
-                    </a> 
-                </div>
-            </nav>
-        </header>
+            <header>
 
-        <!---------------
+                <nav class="flex justify-between items-center py-6 md:justify-center mx-40 md:space-x-10 p-10">
+                    <div class="hidden md:flex space-x-10">
+                        <a href="#" class="text-base font-bold text-gray-500 hover:text-gray-900">
+                            <p>protfolio</p>
+                        </a>
+                        <a href="#" class="text-base font-bold text-gray-500 hover:text-gray-900">
+                            <p>Solutions</p>
+                        </a>
+                        <a href="#" class="text-base font-bold text-gray-500 hover:text-gray-900">
+                            <p>about me</p>
+                        </a>
+                        <a href="#" class="text-base font-bold text-gray-500 hover:text-gray-900">
+                            <p>my blog</p>
+                        </a>
+                        <a href="#" class="text-base font-bold text-gray-500 hover:text-gray-900">
+                            <p>reviews</p>
+                        </a>
+                        <a href="#" class="text-base font-bold text-gray-500 hover:text-gray-900">
+                            <p>contact me</p> 
+                        </a>
+                    </div>
+                    <div class="md:flex items-center justify-end md:flex-1 lg:w-0">
+                        <img class="w-4 inline text-pink-600" src="icon/phone-call.png" alt="">
+                        <a href="#" class="text-base font-medium text-red-600 hover:text-gray-900 mx-2">
+                            <p>Schedule a Call</p>
+                        </a>
+                    </div>
+                </nav>
+            </header>
+
+            <!---------------
          Main section 
          --------------->
-        <main>
-            <section class="container md:flex items-center justify-center -my-5">  
-                <div>
-                    <h1 class="text-xl">Hi There,</h1>
-                    <p class="text-gray-700 font-bold text-7xl">I am Ven<span class="text-pink-600">i</span>ssa</p>
-                    <p class="text-gray-700 font-bold text-3xl">I am designer during daytime</p> 
-                    <p class="text-gray-700 font-bold text-xl"> & work with batman during nights.</p>
-                    <button class="bg-pink-600 mt-8 text-pink-50 font-normal  py-2 px-8 border">
-                        Ask Me How
-                      </button> 
-                </div>
-                <div>
-                    <img  src="image/index.png" alt="">
-                </div>
-            </section> 
-        </main>
+            <main>
+                <section class="container md:flex items-center justify-center -my-5">
+                    <div>
+                        <h1 class="text-xl ">Hi There,</h1>
+                        <p class="text-gray-700 font-bold text-7xl">I am Ven<span class="text-pink-600">i</span>ssa</p>
+                        <p class="text-gray-700 font-bold text-3xl">I am designer during daytime</p>
+                        <p class="text-gray-700 font-bold text-xl"> & work with batman during nights.</p>
+                        <button class="bg-pink-600 mt-8 text-pink-50 font-normal  py-2 px-8 border">
+                            Ask Me How
+                        </button>
+                    </div>
+                    <div>
+                        <img src="image/index.png" alt="">
+                    </div>
+                </section>
+            </main>
 
-        <!-----------
+            <!-----------
            fotter
         ----------->
-        <footer>
-            <div class=" grid grid-cols-3 divide-x divide-gray-500" >
-                <div class="px-32" >
-                    <p class="text-gray-700 text-xl font-bold  ">Email</p>
-                    <p class=" text-gray-700">venissa@gothem.com</p>
+            <footer class="">
+                <div class=" grid grid-cols-3 divide-x divide-gray-500">
+                    <div class="px-32">
+                        <p class="text-gray-700 text-xl font-bold  ">Email</p>
+                        <p class=" text-gray-700">venissa@gothem.com</p>
+                    </div>
+                    <div class="px-32">
+                        <p class=" text-gray-700 text-xl font-bold ">Phone</p>
+                        <p class="text-gray-700">+190-300-444-5555</p>
+                    </div>
+                    <div class="px-32">
+                        <p class="text-gray-700 text-xl font-bold ">Location</p>
+                        <p class="text-gray-700">Gotham City,Arkham</p>
+                    </div>
                 </div>
-                <div class="px-32">
-                     <p class=" text-gray-700 text-xl font-bold ">Phone</p>
-                    <p class="text-gray-700">+190-300-444-5555</p>
-                </div>
-                <div class="px-32" >
-                    <p class="text-gray-700 text-xl font-bold ">Location</p>
-                    <p class="text-gray-700">Gotham City,Arkham</p>
-                </div>
-           </div>
-        </footer> 
-    </div>
-</section> 
+            </footer>
+        </div>
+    </section>
 </body>
+
 </html>
